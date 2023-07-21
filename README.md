@@ -27,7 +27,6 @@ O objetivo deste projeto é coletar e unificar dados de cotações de fundos de 
    - Foram removidos os CNPJs duplicados para obter apenas as informações mais atualizadas de cada fundo.
 
 4. Criação do Banco de Dados:
-   - Os dataframes com os dados de cotações e informações cadastrais foram combinados em um único dataframe utilizando a função `merge()` do pandas. Obtidas do seguinte ink:
-        https://dados.cvm.gov.br/dataset/fi-cad
+   - Os dataframes com os dados de cotações e informações cadastrais foram combinados em um único dataframe utilizando a função `merge()` do pandas. Obtidas do seguinte ink: https://dados.cvm.gov.br/dataset/fi-cad
 
 **AVISO: O banco de dados gerado é muito grande e a execução do código pode levar várias horas. Recomendamos que, para análises mais rápidas e eficientes, você utilize um banco de dados em SQL para manipular os dados dos fundos de investimento.**
